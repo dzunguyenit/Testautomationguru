@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="350" started-at="2018-12-07T09:59:51Z" finished-at="2018-12-07T09:59:51Z">
+    <groups>
+    </groups>
+    <test name="Run on QA" duration-ms="157" started-at="2018-12-07T09:59:51Z" finished-at="2018-12-07T09:59:51Z">
+      <class name="testMultiEnviroment.EnvironmentTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testMultiEnviroment.EnvironmentTest@58651fd0]" name="beforeTest" is-config="true" duration-ms="80" started-at="2018-12-07T09:59:51Z" finished-at="2018-12-07T09:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="functionalTest()[pri:0, instance:testMultiEnviroment.EnvironmentTest@58651fd0]" name="functionalTest" duration-ms="32" started-at="2018-12-07T09:59:51Z" finished-at="2018-12-07T09:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionalTest -->
+      </class> <!-- testMultiEnviroment.EnvironmentTest -->
+    </test> <!-- Run on QA -->
+    <test name="Run on Staging" duration-ms="9" started-at="2018-12-07T09:59:51Z" finished-at="2018-12-07T09:59:51Z">
+      <class name="testMultiEnviroment.EnvironmentTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testMultiEnviroment.EnvironmentTest@46d56d67]" name="beforeTest" is-config="true" duration-ms="2" started-at="2018-12-07T09:59:51Z" finished-at="2018-12-07T09:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[staging]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="functionalTest()[pri:0, instance:testMultiEnviroment.EnvironmentTest@46d56d67]" name="functionalTest" duration-ms="4" started-at="2018-12-07T09:59:51Z" finished-at="2018-12-07T09:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionalTest -->
+      </class> <!-- testMultiEnviroment.EnvironmentTest -->
+    </test> <!-- Run on Staging -->
+    <test name="Run on Production" duration-ms="10" started-at="2018-12-07T09:59:51Z" finished-at="2018-12-07T09:59:51Z">
+      <class name="testMultiEnviroment.EnvironmentTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testMultiEnviroment.EnvironmentTest@61832929]" name="beforeTest" is-config="true" duration-ms="2" started-at="2018-12-07T09:59:51Z" finished-at="2018-12-07T09:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="functionalTest()[pri:0, instance:testMultiEnviroment.EnvironmentTest@61832929]" name="functionalTest" duration-ms="4" started-at="2018-12-07T09:59:51Z" finished-at="2018-12-07T09:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionalTest -->
+      </class> <!-- testMultiEnviroment.EnvironmentTest -->
+    </test> <!-- Run on Production -->
+  </suite> <!-- Suite -->
+</testng-results>

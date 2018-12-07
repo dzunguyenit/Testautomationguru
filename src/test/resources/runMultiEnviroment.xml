@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Run on QA">
+		<parameter name="environment" value="qa" />
+		<classes>
+			<class name="testMultiEnviroment.EnvironmentTest" />
+		</classes>
+	</test>
+	<test name="Run on Staging">
+		<parameter name="environment" value="staging" />
+		<classes>
+			<class name="testMultiEnviroment.EnvironmentTest" />
+		</classes>
+	</test>
+	<test name="Run on Production">
+		<parameter name="environment" value="prod" />
+		<classes>
+			<class name="testMultiEnviroment.EnvironmentTest" />
+		</classes>
+	</test>
+</suite>
